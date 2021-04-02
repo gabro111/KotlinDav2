@@ -19,11 +19,10 @@ class  Point(private var x :Double, private var y :Double)
         if (other is Point) {
             if(this.x == other.x && this.y== other.y){
                 return true;
-            }else{
-                return false
             }
-        }
-        return super.equals(other);
+
+            return false
+
 
     }
 
